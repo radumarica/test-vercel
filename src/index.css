@@ -462,5 +462,12 @@ code {
  .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
   transform:translatex(356px) translatey(-385px);
  }
+
+ wallet-adapter-button sc-gKseQn iSulBi removeAttributes11 {
+
+  position:relative;
+  left:-9px;
+  top:-97px;
+  }
  
  
