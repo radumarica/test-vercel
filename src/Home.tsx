@@ -486,7 +486,7 @@ const Home = (props: HomeProps) => {
             <MainContainer>
                 {/* <Grid container >
                 <Grid item lg={1} >
-                <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
+                <Logo><a href="https://www.palmverse.io/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="palmverselogo.png"/></a></Logo>
                 </Grid>
                 <Grid item lg={11} >

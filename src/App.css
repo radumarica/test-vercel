@@ -819,3 +819,29 @@ font-weight: normal;
 .sol-btn{
   width: 300px;
 }
+
+/* Heading */
+#root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root .sc-dIUeWJ h2{
+  transform:translatex(268px) translatey(-515px) !important;
+ }
+ 
+ /* Paragraph */
+ #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root p{
+  transform:translatex(709px) translatey(-1293px) !important;
+ }
+ 
+ /* Paragraph */
+ #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root:nth-child(2) p{
+  transform:translatex(709px) translatey(-1542px) !important;
+ }
+ 
+ @media (min-width:481px){
+ 
+  /* Fod vek */
+  .sc-bqyKOL div .sc-fodVek{
+   transform:translatex(-374px) translatey(31px);
+  }
+  
+ }
+
+
