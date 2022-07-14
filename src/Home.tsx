@@ -18,6 +18,7 @@ import {
     mintOneToken,
     CANDY_MACHINE_PROGRAM,
 } from "./candy-machine";
+import { Grid } from "@material-ui/core";
 
 const cluster = process.env.REACT_APP_SOLANA_NETWORK!.toString();
 const decimals = process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS ? +process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS!.toString() : 9;
@@ -33,7 +34,7 @@ const WalletContainer = styled.div`
 const WalletAmount = styled.div`
   color: black;
   width: auto;
-  padding: 5px 5px 5px 16px;
+  padding: 5px 50px 5px 50px;
   min-width: 48px;
   min-height: auto;
   border-radius: 22px;
@@ -54,6 +55,8 @@ const WalletAmount = styled.div`
   vertical-align: middle;
   justify-content: flex-start;
   gap: 10px;
+  right: 106px !important;
+    top: 12px;
 `;
 
 const Wallet = styled.ul`
@@ -481,28 +484,56 @@ const Home = (props: HomeProps) => {
     return (
         <main>
             <MainContainer>
+                {/* <Grid container >
+                <Grid item lg={1} >
+                <Logo><a href="https://www.palmverse.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="palmverselogo.png"/></a></Logo>
+                </Grid>
+                <Grid item lg={11} >
+                <Wallet>
+                        {wallet ? <>
+                            <WalletAmount className="sol-btn" >{(balance || 0).toLocaleString()} SOL</WalletAmount> <ConnectButton/> </> :
+                            <ConnectButton>Connect Wallet</ConnectButton>}
+                    </Wallet>
+                </Grid>
+                </Grid> */}
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="palmverselogo.png"/></a></Logo>
                    
                     <Wallet>
-                        {wallet ?
-                            <WalletAmount>{(balance || 0).toLocaleString()} SOL<ConnectButton/></WalletAmount> :
+                        {wallet ? <>
+                            <WalletAmount className="sol-btn" >{(balance || 0).toLocaleString()} SOL</WalletAmount> <ConnectButton/> </> :
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
                 <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
                 <br/>
-
-
-                <MintContainer>
-                    <DesContainer>
-                        <NFT elevation={1}>
-                            <br/>
-                            <div><Price
+                {/* ............ testing */}
+                
+                    {/* <Grid container >
+                     <Grid item lg={6}>
+                     <div>
+                    <Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
                                 src="palmversemint.gif"
                                 alt="NFT To Mint"/></div>
+                         </Grid>       
+                    </Grid> */}
+                                
+      {/* ............ testing */}
+                <MintContainer>
+                    <DesContainer>
+                    <div><Price
+                                label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
+                                src="palmversemint.gif"
+                                alt="NFT To Mint"/></div>
+                        <NFT elevation={1}>
+                            <br/>
+                            {/* <div><Price
+                                label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
+                                src="palmversemint.gif"
+                                alt="NFT To Mint"/></div> */}
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
                               <h3>You have {whitelistTokenBalance} whitelist mint(s) remaining.</h3>}
