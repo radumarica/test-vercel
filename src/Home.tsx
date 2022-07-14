@@ -482,7 +482,7 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                <Logo><a href="https://www.palmverse.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="palmverselogo.png"/></a></Logo>
                    
                     <Wallet>

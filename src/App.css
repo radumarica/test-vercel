@@ -6,77 +6,96 @@
   --main-text-color:#faf9f8;
   --title-text-color:#c20884;
 }
+
 body{
   background-color:var(--main-background-color);
   font-family: 'Roboto', cursive;
   font-size: 1.2em;
 }
+
 h2, p{
   color: var(--main-text-color);
 }
+
 h3{
 font-weight: normal;
 }
+
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 /* Heading */
 #root main h1{
  font-family:'Poppins', sans-serif;
  transform:translatex(0px) translatey(0px);
 }
+
 /* Wallet adapter button */
 .sc-hKgJUU .sc-jSgvzq .wallet-adapter-button{
  font-family:'Poppins', sans-serif;
 }
+
 /* Qova */
 #root main .sc-dQoVA{
  transform:translatex(0px) translatey(0px);
 }
+
 /* Paragraph */
 .sc-bqyKOL .sc-kstqJO p{
  font-family:'Poppins', sans-serif;
 }
+
 /* Heading */
 .sc-bqyKOL .sc-kstqJO h2{
  font-family:'Poppins', sans-serif;
  background-color:transparent;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(3){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(4){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(2){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(3){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(4){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(3) p:nth-child(2){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(3) p:nth-child(3){
  color:#000000;
 }
+
 /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(3) p:nth-child(4){
  color:#000000;
 }
+
 /* Qova */
 #root main .sc-dQoVA{
   background-image:linear-gradient(to right, #1c92d2 0%, #f2fcfe 100%);
@@ -141,6 +160,7 @@ font-weight: normal;
  .sc-bqyKOL .MuiPaper-root:nth-child(3) p:nth-child(4){
   font-weight:600;
  }
+
  /* Qova */
 #root main .sc-dQoVA{
   background-image:linear-gradient(45deg, #ff00cc 0%, #333399 100%);
@@ -295,6 +315,8 @@ font-weight: normal;
   display:inline-block;
   transform:translatex(7px) translatey(28px);
  }
+
+
  /* de aici se poate sterge pentru modificarile cu background negru */
 /* Qova */
 #root main .sc-dQoVA{
@@ -310,25 +332,21 @@ font-weight: normal;
  
  /* Image */
  .sc-kEjbQP a img{
-  transform:translatex(-510px) translatey(5px);
+  transform:translatex(-583px) translatey(5px);
   width:86px;
   min-height:68px;
-  margin-left: 142px;
  }
  
  /* Wallet adapter button */
  .sc-hKgJUU .sc-jSgvzq .wallet-adapter-button{
-  transform:translatex(-88px) translatey(19px);
+  transform:translatex(-54px) translatey(19px);
  }
  
  /* Fod vek */
  .sc-bqyKOL div .sc-fodVek{
-  /* display:inline-block;
+  display:inline-block;
   transform:translatex(-365px) translatey(-225px);
-  min-height:573px; */
-  display: inline-block;
-  transform: translatex(-335px) translatey(37px);
-  min-height: 573px;
+  min-height:573px;
  }
  
  /* Heading */
@@ -389,44 +407,24 @@ font-weight: normal;
  }
  
  /* Paragraph */
- 
  .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(4){
   transform:translatex(640px) translatey(-1113px);
  }
  
  /* Heading */
  .sc-bqyKOL .MuiPaper-root:nth-child(1) .sc-idOiZg{
-  transform: translatex(445px) translatey(-506px) !important;
+  transform:translatex(203px) translatey(-224px);
  }
- @media screen and (max-width: 1700px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) .sc-idOiZg{
-    transform: translatex(352px) translatey(-506px) !important;
-   }
-}
- @media screen and (max-width: 1400px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) .sc-idOiZg{
-    transform: translatex(180px) translatey(-506px) !important;
-   }
-}
+ 
  /* Paragraph */
  #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root:nth-child(1) p:nth-child(4){
   width:85% !important;
  }
  
- .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2) {
-  transform: translatex(890px) translatey(-1259px) !important;
-}
-@media screen and (max-width: 1700px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
-    transform: translatex(784px) translatey(-1259px) !important;
-   }
-}
-@media screen and (max-width: 1400px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
-    transform: translatex(615px) translatey(-1259px) !important;
-   }
-}
  /* Paragraph */
+ .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
+  transform:translatex(645px) translatey(-910px);
+ }
  
  /* Paragraph */
  #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root:nth-child(1) p:nth-child(2){
@@ -467,16 +465,12 @@ font-weight: normal;
  .sc-dQoVA .sc-bqyKOL .sc-kstqJO:nth-child(2){
   transform:translatex(-20px) translatey(-11px);
  }
- /* Wallet adapter button */
  
+ /* Wallet adapter button */
  .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
-  transform:translatex(356px) translatey(-490px) !important;
+  transform:translatex(356px) translatey(-385px);
  }
- @media screen and (max-width: 1400px) {
-  .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
-    transform:translatex(356px) translatey(-500px) !important;
-   }
-}
+ 
  /* Heading */
 .sc-bqyKOL .sc-kstqJO h2{
   color:#c20884;
@@ -491,55 +485,32 @@ font-weight: normal;
  .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
   background-color:#c20884;
  }
+
  /* Paragraph */
 .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(4){
-  transform: translatex(890px) translatey(-1250px);
+  transform:translatex(645px) translatey(-1010px);
  }
- @media screen and (max-width: 1700px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
-    transform:translatex(784px) translatey(-1015px);
-   }
-   .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(4){
-    transform: translatex(784px) translatey(-1250px);
-   }
-}
- @media screen and (max-width: 1400px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
-    transform:translatex(617px) translatey(-1015px);
-   }
-   .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(4){
-    transform: translatex(617px) translatey(-1250px);
-   }
-}
+ 
  /* Paragraph */
+ .sc-bqyKOL .MuiPaper-root:nth-child(1) p:nth-child(2){
+  transform:translatex(645px) translatey(-1015px);
+ }
+
  /* modificari telefon incep aici */
+
  /* Paragraph */
- .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(2){
-  transform: translatex(890px) translatey(-1485px) !important;
+.sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(2){
+  transform:translatex(643px) translatey(-1255px);
  }
- @media screen and (max-width: 1700px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(2){
-    transform: translatex(784px) translatey(-1485px) !important;
-   }
-}
- @media screen and (max-width: 1400px) {
-  .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(2){
-    transform: translatex(624px) translatey(-1485px) !important;
-   }
-}
  
  /* Paragraph */
  .sc-bqyKOL .MuiPaper-root:nth-child(2) p:nth-child(3){
   transform:translatex(643px) translatey(-1250px);
  }
- .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
-  transform:translatex(335px) translatey(-476px);
- }
+ 
  /* Wallet adapter button */
- @media screen and (max-width: 1400px) {
-  .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
-    transform:translatex(335px) translatey(-500px);
-   }
+ .sc-bqyKOL .sc-kstqJO .wallet-adapter-button{
+  transform:translatex(335px) translatey(-449px);
  }
  
  @media (max-width:1316px){
@@ -700,6 +671,7 @@ font-weight: normal;
  }
  
  @media (max-width:480px){
+
   /* Wallet adapter button */
   .sc-hKgJUU .sc-jSgvzq .wallet-adapter-button{
    transform:translatex(-554px) translatey(24px);
@@ -777,33 +749,6 @@ font-weight: normal;
   }
   
  
- }
-
-.sol-btn{
-  width: 300px;
-} 
-
-
-/* Heading */
-#root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root .sc-dIUeWJ h2{
-  transform:translatex(268px) translatey(-515px) !important;
- }
-
- /* Paragraph */
- #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root p{
-  transform:translatex(709px) translatey(-1293px) !important;
- }
-
- /* Paragraph */
- #root main .sc-dQoVA .sc-bqyKOL .sc-kstqJO .MuiPaper-root:nth-child(2) p{
-  transform:translatex(709px) translatey(-1542px) !important;
- }
-
- @media (min-width:481px){
-
-  /* Fod vek */
-  .sc-bqyKOL div .sc-fodVek{
-   transform:translatex(-374px) translatey(31px);
-  }
 
  }
+
