@@ -1,0 +1,29 @@
+{
+  "name": "PalmverseDev",
+  "symbol": "",
+  "description": "You can get a discount with this NFT.",
+  "seller_fee_basis_points": 0,
+  "image": "3.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "3"
+    }
+  ],
+
+  "properties": {
+    "files": [
+      {
+        "uri": "3.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "5WXif5UEG69kF7Qo71FqEiUfgyqiJYT2Uwcn3g7GLHvB",
+        "share": 100
+      }
+    ]
+  }
+}
